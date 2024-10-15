@@ -10,3 +10,7 @@
         , <&gpio1 06 GPIO_ACTIVE_HIGH> // Col 5 from PCB
         ;
 };
+
+&left_encoder {
+    status = "okay";
+};

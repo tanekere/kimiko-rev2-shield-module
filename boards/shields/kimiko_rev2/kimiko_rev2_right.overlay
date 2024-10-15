@@ -14,3 +14,7 @@
         , <&gpio0 22 GPIO_ACTIVE_HIGH> // Col 0 from PCB
         ;
 };
+
+&right_encoder {
+    status = "okay";
+};
